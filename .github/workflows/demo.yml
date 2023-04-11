@@ -39,4 +39,6 @@ jobs:
         run: docker build .
         
       - name: show the directory files here
-        run: ls -R ./.github
+        run: |
+          ls -R ./.github
+          pwd
