@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actionss
 
-name: CI for demo1
+name: test-CI
 
 # Controls when the workflow will run
 on:
