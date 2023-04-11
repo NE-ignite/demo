@@ -36,4 +36,7 @@ jobs:
          echo test, and deploy your project.
          
       - name: To build a docker image
-        run: docker build .        
+        run: docker build .
+        
+      - name: show the directory files here
+        run: ls
