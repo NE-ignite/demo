@@ -39,4 +39,4 @@ jobs:
         run: docker build .
         
       - name: show the directory files here
-        run: ls -R -la
+        run: ls -R ./.github
